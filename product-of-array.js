@@ -2,7 +2,7 @@ const product_of_array = (arr, n) => {
   if(n <= 0){
     return 1;
   } else {
-    return arr[n - 1] * product_of_array(arr, n - 1);
+    return arr[n - 1] * product_of_array(arr, n - 1); 
   }
 }
 

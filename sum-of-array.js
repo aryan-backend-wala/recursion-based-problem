@@ -2,7 +2,7 @@ const sum_of_array = (arr, n) => {
   if(n <= 0){
     return n;
   } else {
-    return arr[n - 1] + sum_of_array(arr, n-1);
+    return arr[n - 1] + sum_of_array(arr, n-1); 
   }
 }
 
